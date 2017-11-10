@@ -1,0 +1,600 @@
+/*通用属性*/
+body{
+	font:16px "microsoft yahei",Arial;
+	color:#666;
+	margin:0;
+	padding:0;
+}
+ul,li,dl,dd,p,h1,h2,h3,h4,h5,h6,div{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+input{
+	border:0;
+
+}
+.lf{float:left;}
+.rt{float:right;}
+.clear{clear:both;}
+a{text-decoration:none;}
+
+
+#header{
+	width:100%;
+	height:120px;
+	background:url(images/NBA_01.png) 50px;
+}
+#header_box{
+	width:1220px;
+	height:80px;
+	margin:0 auto;
+}
+#header_box>a{
+	display:inline-block;
+	width:517px;
+	height:67px;
+	float:left;
+	margin-top:7px;
+}
+#header_box>ul{
+	position:absolute;
+	top:0px;
+	right:100px;
+	width:415px;
+	height:40px;
+	z-index:999;
+
+}
+#header_box>ul>li{
+	float:left;
+	margin:0px 0 0 10px;
+}
+#slide{width:90px;height:19px;right:0px;position:relative;}
+#slide>img{position:absolute;z-index:999;}
+#slide>ul{
+	width:90px;
+	height:190px;
+	background:#033152;
+	position:absolute;
+	top:-210px;
+	left:0px;
+	color:#fff;
+	z-index:10;
+}
+#slide>ul>li{
+	width:90px;
+	height:30px;
+	text-align:center;
+	line-height:30px;
+	font-size:14px;
+}
+#slide>ul>li:hover{
+	background:#006db8;
+}
+
+
+
+
+
+#top_box{
+	width:1200px;
+	height:40px;
+	margin:0 auto;
+}
+#top_box>ul{
+	float:left;
+	margin-left:30px;
+}
+#top_box>ul>li{
+	float:left;
+	color:#fff;
+	width:57px;
+	height:40px;
+	margin:0 8px;
+	line-height:30px;
+	cursor:pointer;
+	text-align:center;
+	position:relative;
+}
+#top_box .color1{
+	color:#00aeff;
+}
+#top_box .bok{
+	display:block;
+}
+#tag1{
+	width:73px;
+	height:60px;
+	background:#033152;
+	position:absolute;
+	top:40px;
+	left:-8px;
+	z-index:10;
+	display:none;
+	color:#fff;
+}
+#tag2{
+	width:73px;
+	height:90px;
+	background:#033152;
+	position:absolute;
+	top:40px;
+	left:-8px;
+	z-index:10;
+	display:none;
+	color:#fff;
+}
+#tag3{
+	width:73px;
+	height:90px;
+	background:#033152;
+	position:absolute;
+	top:40px;
+	left:-8px;
+	z-index:10;
+	display:none;
+	color:#fff;
+}
+#tag4{
+	width:73px;
+	height:60px;
+	background:#033152;
+	position:absolute;
+	top:40px;
+	left:-8px;
+	z-index:10;
+	display:none;
+	color:#fff;
+}
+#tag5{
+	width:73px;
+	height:60px;
+	background:#033152;
+	position:absolute;
+	top:40px;
+	left:-8px;
+	z-index:10;
+	display:none;
+	color:#fff;
+}
+#tag6{
+	width:73px;
+	height:60px;
+	background:#033152;
+	position:absolute;
+	top:40px;
+	left:-8px;
+	z-index:10;
+	display:none;
+	color:#fff;
+}
+#tag7{
+	width:73px;
+	height:30px;
+	background:#033152;
+	position:absolute;
+	top:40px;
+	left:-8px;
+	z-index:10;
+	display:none;
+	color:#fff;
+}
+.tag:hover #tag1{display:block;}
+
+#top_box>div{
+	float:right;
+	width:70px;
+	height:40px;
+}
+#top_box .serch{
+	float:left;
+	width:20px;
+	height:20px;
+	background:url(images/NBA_25.jpg);
+	margin:5px 20px 0 0 ;
+}
+#top_box .user{
+	float:left;
+	width:30px;
+	height:30px;
+	background:url(images/NBA_23.jpg);
+}
+
+
+
+
+
+
+#content{
+	width:1220px;
+	height:1100px;
+	padding:15px 10px;
+	background:#fafafa;
+	margin:0 auto;
+}
+#content1{
+	width:1200px;
+	height:330px;
+	margin:15px auto;
+	overflow:hidden;
+}
+#banner{
+	width:510px;
+	height:330px;
+	float:left;
+	overflow:hidden;
+	position:relative;
+}
+#baner{
+	width:2550px;
+	height:330px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	transition:all 0.5s;
+}
+#baner>li{
+	float:left;
+}
+#tabs{
+	width:80px;
+	height:18px;
+	position:absolute;
+	left:50%;
+	bottom:10px;
+	margin-left:-40px;
+	z-index:33;
+}
+#tabs>li{
+	float:left;
+	width:8px;
+	height:8px;
+	background:#fff;
+	opacity:0.6;
+	border-radius:4px;
+	margin:5px 4px;
+}
+#tabs .color{background:#fff;opacity:1;}
+#left{
+	width:30px;
+	height:50px;
+	background:#000;
+	opacity:0.8;
+	position:absolute;
+	top:50%;
+	left:0;
+	margin-top:-25px;
+	outline:none;
+	border:none;
+	color:#fff;
+	font-size:20px;
+}
+#right{
+	width:30px;
+	height:50px;
+	background:#000;
+	opacity:0.8;
+	position:absolute;
+	top:50%;
+	right:0;
+	margin-top:-25px;
+	outline:none;
+	border:none;
+	color:#fff;
+	font-size:20px;
+}
+#banner>div{
+	width:510px;
+	height:60px;
+	position:absolute;
+	bottom:0;
+	left:0;
+	background:#000;
+	opacity:0.5;
+	z-index:1;
+}
+#btom{
+	width:510px;
+	height:60px;
+	position:absolute;
+	bottom:0;
+	left:0;
+	z-index:2;
+	color:#fff;
+	font-size:18px;
+}
+
+#btom>li{
+	display:none;
+	margin:5px 0 0 20px;
+}
+#btom .bk{
+	display:block;
+}
+
+
+
+
+#list{
+	float:left;
+	width:360px;
+	height:352px;
+	margin:-10px 10px 0 20px;
+}
+#list>ul>li{
+	width:360px;
+	height:67px;
+	border-bottom:1px solid #ccc;
+	padding:10px 0;
+}
+#list>ul>li:last-child{
+	border-bottom:none;
+}
+#list li>p{
+	float:left;
+	width:92px;
+	height:67px;
+	margin-right:10px;
+}
+#list li>a{
+	display:block;
+	float:left;
+	width:258px;
+	height:67px;
+	margin-top:10px;
+	
+}
+
+
+#news{
+	width:300px;
+	height:330px;
+	float:left;
+}
+#news>div{
+	width:300px;
+	height:40px;
+	background:url(images/NBA_34.jpg);
+}
+#news>ul{
+	width:300px;
+	height:290px;
+	position:relative;
+}
+#news>ul>li{
+	width:300px;
+	height:290px;
+	position:absolute;
+	top:0;
+	left:0;
+	background:url(images/NBA_01_03.jpg);
+}
+
+#content2{
+	width:1200px;
+	height:560px;
+	margin:15px auto;
+}
+#content_tab{
+	width:1200px;
+	height:40px;
+	border-bottom:1px solid #ccc;
+}
+#content_tab>div{
+	width:26px;
+	height:18px;
+	background:url(images/NBA_37.jpg);
+	margin:11px 10px 0 0 ;
+	float:left;
+}
+#content_tab>a{
+	display:block;
+	float:left;
+	color:#2464b5;
+	font-size:24px;
+	margin:4px 30px 0 0;
+}
+#content_tab>ul{
+	float:left;
+	margin-top:7px;
+}
+#content_tab>ul>li{
+	float:left;
+	width:120px;
+	height:33px;
+	text-align:center;
+	line-height:33px;
+	cursor:pointer;
+}
+#content_tab .line{
+	border-bottom:2px solid #e11647;
+}
+#video_list{
+	width:1200px;
+	height:490px;
+	padding-top:10px;
+	position:relative;
+}
+
+#video_list>div{
+	display:none;
+}
+
+#video_list .change{
+	display:block;
+}
+
+#num1{
+	position:absolute;
+	top:10px;
+	left:0px;
+}
+#num1 span{display:inline;width:285px;height:203.5px;}
+#num1>li{
+	width:285px;
+	height:245px;
+	margin-right:20px;
+	float:left;
+	font-size:14px;
+
+
+}
+#num1>li:nth-child(4),#num1>li:nth-child(8){
+	margin-right:0px;
+}
+#num1>li>a{
+	width:285px;
+	height:32px;
+	line-height:32px;
+}
+
+
+#num2{
+	position:absolute;
+	top:10px;
+	left:0px;
+}
+#num2>li{
+	width:285px;
+	height:245px;
+	margin-right:20px;
+	float:left;
+	font-size:14px;
+
+}
+#num2>li:nth-child(4),#num2>li:nth-child(8){
+	margin-right:0px;
+}
+#num2>li>a{
+	width:285px;
+	height:32px;
+	line-height:32px;
+}
+
+
+
+#num3{
+	position:absolute;
+	top:10px;
+	left:0px;
+}
+#num3>li{
+	width:285px;
+	height:245px;
+	margin-right:20px;
+	float:left;
+	font-size:14px;	
+}
+#num3>li:nth-child(4),#num3>li:nth-child(8){
+	margin-right:0px;
+}
+#num3>li>a{
+	width:285px;
+	height:32px;
+	line-height:32px;
+}
+
+
+
+
+
+#content3{
+	width:1200px;
+	height:100px;
+	margin:20px auto;
+}
+#content3>ul>li{
+	float:left;
+	width:138px;
+	height:80px;
+	margin-right:13.6px;
+	position:relative;
+}
+#content3>ul>li:last-child{
+	margin-right:0px;
+}
+
+
+#content3>ul>li>div{
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:2;
+}
+
+
+
+
+
+
+
+
+#foot{
+	width:100%;
+	height:250px;
+	background:#032f50;
+	color:#fff;
+	font-size:14px;
+}
+#foot_box{
+	width:1220px;
+	height:250px;
+	margin:0 auto;
+}
+#foot_box>ul{
+	float:left;
+	margin:20px 110px 0 0;
+}
+#foot_box>ul>li:first-child{
+	font-size:18px;
+	margin-bottom:15px;
+}
+#foot_box>ul>li{
+	line-height:1.8;
+}
+#foot_box>div{
+	float:left;
+	width:140px;
+	height:200px;
+	margin:25px 50px 0 0 ;
+}
+#foot_box>div>a{
+	display:block;
+	font-size:20px;
+	margin:0 0 10px 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
